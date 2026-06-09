@@ -4,11 +4,11 @@ namespace Botble\Snippets\Package\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\PluginManagement\Services\PluginService;
-use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 use Botble\Snippets\Package\PrivateUpdater\PluginUpdateClient;
 use Botble\Snippets\Package\PrivateUpdater\PluginUpdateInstaller;
 use Botble\Snippets\Package\PrivateUpdater\PluginUpdateRegistry;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
 
 class PrivateUpdaterController extends BaseController
 {
